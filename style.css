@@ -5,4 +5,9 @@
 img {
     height: auto;
     width: 250px;
+    border-radius: 5px;
+}
+
+.caption {
+    font-size: small;
 }

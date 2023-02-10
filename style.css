@@ -1,6 +1,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:black;
+    background-image:url(./Images/background);
+    background-size: cover;
     color: white;
 }
 
@@ -14,8 +15,12 @@ img {
     font-size: small;
 }
 
-main section:hover {
-    color: antiquewhite;
+.hover:hover {
+    color:floralwhite;
     background-color: cadetblue;
     border-radius: 5px;
+}
+
+footer{
+    text-align: center;
 }

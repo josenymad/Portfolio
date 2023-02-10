@@ -1,5 +1,7 @@
-* {
+body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:black;
+    color: white;
 }
 
 img {
@@ -10,4 +12,10 @@ img {
 
 .caption {
     font-size: small;
+}
+
+main section:hover {
+    color: antiquewhite;
+    background-color: cadetblue;
+    border-radius: 5px;
 }

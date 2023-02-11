@@ -11,8 +11,9 @@ img {
     border-radius: 5px;
 }
 
-.caption {
-    font-size: small;
+#instagram {
+    height: auto;
+    width: 153px;
 }
 
 .hover:hover {
@@ -34,6 +35,15 @@ nav a:visited {
     color: #CAC1AD;
 }
 
-span:first {
+span.separate {
     color: #E1C79C;
+}
+
+figure {
+    display:inline-block;
+    width: 30%;
+}
+
+#spotify {
+    width: 30%;
 }

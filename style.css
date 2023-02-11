@@ -26,10 +26,10 @@ footer{
     color: #002D4C;
 }
 
-a {
+nav a {
     color: #F8CC8B;
 }
 
-a:visited {
+nav a:visited {
     color: #CAC1AD;
 }

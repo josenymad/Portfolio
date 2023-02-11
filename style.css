@@ -1,6 +1,6 @@
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image:url(./Images/background);
+    background-image:url(./Images/background.jpg);
     background-size: cover;
     color: white;
 }
@@ -13,7 +13,7 @@ img {
 
 #instagram {
     height: auto;
-    width: 153px;
+    width: 300px;
 }
 
 .hover:hover {
@@ -41,9 +41,5 @@ span.separate {
 
 figure {
     display:inline-block;
-    width: 30%;
-}
-
-#spotify {
-    width: 30%;
+    width: 25%;
 }

@@ -34,6 +34,6 @@ nav a:visited {
     color: #CAC1AD;
 }
 
-span {
+span:first {
     color: #E1C79C;
 }

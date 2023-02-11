@@ -16,15 +16,20 @@ img {
 }
 
 .hover:hover {
-    color:floralwhite;
-    background-color: cadetblue;
+    color: #e5e0d6;
+    background-color: #43687F;
     border-radius: 5px;
 }
 
 footer{
     text-align: center;
+    color: #002D4C;
+}
+
+a {
+    color: #F8CC8B;
 }
 
 a:visited {
-    color:midnightblue
+    color: #CAC1AD;
 }

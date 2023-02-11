@@ -7,7 +7,7 @@ body {
 
 img {
     height: auto;
-    width: 250px;
+    width: 369px;
     border-radius: 5px;
 }
 
@@ -32,4 +32,8 @@ nav a {
 
 nav a:visited {
     color: #CAC1AD;
+}
+
+span {
+    color: #E1C79C;
 }

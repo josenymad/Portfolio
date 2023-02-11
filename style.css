@@ -5,15 +5,15 @@ body {
     color: white;
 }
 
-img {
+#profile {
     height: auto;
     width: 369px;
     border-radius: 5px;
 }
 
-#instagram {
+.QR {
     height: auto;
-    width: 300px;
+    width: 369px;
 }
 
 .hover:hover {
@@ -42,4 +42,9 @@ span.separate {
 figure {
     display:inline-block;
     width: 25%;
+}
+
+figcaption {
+    text-align: center;
+    color: #2d546d;
 }

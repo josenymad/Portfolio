@@ -1,8 +1,8 @@
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image:url(./Images/background.jpg);
-    background-size: cover;
-    color: white;
+    color: #eae7df;
+    text-align: center;
+    background: linear-gradient(#065170, #F8B264);
 }
 
 #profile {
@@ -16,27 +16,21 @@ body {
     width: 369px;
 }
 
-.hover:hover {
-    color: #e5e0d6;
-    background-color: #254b64;
-    border-radius: 5px;
-}
-
 footer{
     text-align: center;
-    color: #002D4C;
+    color: #065170;
 }
 
 nav a {
-    color: #F8CC8B;
+    color: #fce3c7;
 }
 
 nav a:visited {
-    color: #CAC1AD;
+    color: #eae7df;
 }
 
 span.separate {
-    color: #E1C79C;
+    color: #F3E5D3;
 }
 
 figure {
@@ -46,5 +40,9 @@ figure {
 
 figcaption {
     text-align: center;
-    color: #2d546d;
+    color: #065170;
+}
+
+li {
+    display:inline-block;
 }

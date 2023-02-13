@@ -36,10 +36,6 @@ li {
     display:inline-block;
 }
 
-#link_container {
-    display: flex;
-}
-
-.link_item {
-    flex-direction: row;
+figcaption {
+    color: #065170;
 }

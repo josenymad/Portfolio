@@ -39,3 +39,7 @@ li {
 figcaption {
     color: #065170;
 }
+
+hr {
+    width: 50vw;
+}

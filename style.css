@@ -7,13 +7,13 @@ body {
 
 #profile {
     height: auto;
-    width: 25%;
+    width: 30vw;
     border-radius: 5px;
 }
 
 #QR {
     height: auto;
-    width: 25%;
+    width: 30vw;
 }
 
 footer{

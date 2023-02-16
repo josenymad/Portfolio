@@ -32,14 +32,15 @@ span.separate {
     color: #F3E5D3;
 }
 
-li {
-    display:inline-block;
-}
-
 figcaption {
     color: #065170;
 }
 
 hr {
     width: 50vw;
+}
+
+.qualities {
+    display: flex;
+    justify-content: space-evenly;
 }

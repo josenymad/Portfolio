@@ -13,18 +13,18 @@ body {
 
 #QR {
     height: auto;
-    width: 30vw;
+    width: 15vw;
 }
 
 footer{
     color: #065170;
 }
 
-nav a {
+a {
     color: #fce3c7;
 }
 
-nav a:visited {
+a:visited {
     color: #eae7df;
 }
 
@@ -48,6 +48,10 @@ figcaption {
     width: 6vw;
 }
 
+#horizon4 {
+    width: 1vw;
+}
+
 .qualities {
     display: flex;
     justify-content: space-evenly;
@@ -56,19 +60,21 @@ figcaption {
 
 .qualities div {
     font-size: 1.5rem;
+    flex-basis: 30%;
 }
 
 .qualities div:first-child {
     font-family: 'Source Code Pro', monospace;
-    flex-basis: 30%;
 }
 
 .qualities div:nth-child(2) {
-    font-family: 'Pacifico', cursive;
-    flex-basis: 30%;    
+    font-family: 'Pacifico', cursive;  
 }
 
 .qualities div:last-child {
     font-family: 'Teko', sans-serif;
-    flex-basis: 30%;
+}
+
+.hobbies {
+    display: flex;
 }

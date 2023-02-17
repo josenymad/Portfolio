@@ -7,8 +7,8 @@ body {
 
 #profile {
     height: auto;
-    width: 63vw;
-    border-radius: 5px;
+    width: 36vw;
+    border-radius: 30vw 3vw 30vw 3vw;
 }
 
 #QR {
@@ -60,12 +60,15 @@ figcaption {
 
 .qualities div:first-child {
     font-family: 'Source Code Pro', monospace;
+    flex-basis: 30%;
 }
 
 .qualities div:nth-child(2) {
-    font-family: 'Pacifico', cursive;    
+    font-family: 'Pacifico', cursive;
+    flex-basis: 30%;    
 }
 
 .qualities div:last-child {
     font-family: 'Teko', sans-serif;
+    flex-basis: 30%;
 }

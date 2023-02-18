@@ -3,6 +3,7 @@ body {
     color: #eae7df;
     text-align: center;
     background: linear-gradient(#065170, #F8B264);
+    letter-spacing: 3px;
 }
 
 #profile {
@@ -16,7 +17,7 @@ body {
     width: 15vw;
 }
 
-footer{
+footer {
     color: #065170;
 }
 
@@ -30,10 +31,6 @@ a:visited {
 
 span.separate {
     color: #F3E5D3;
-}
-
-figcaption {
-    color: #065170;
 }
 
 #horizon1 {

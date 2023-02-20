@@ -15,12 +15,13 @@ a:visited {
     color: #eae7df;
 }
 
-span {
-    color: #F3E5D3;
-}
-
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    row-gap: 6vh;
+}
+
+footer {
+    color: #065170;
 }

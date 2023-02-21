@@ -1,0 +1,29 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+    color: #eae7df;
+    text-align: center;
+    background: linear-gradient(#065170, #F8B264);
+    letter-spacing: 3px;
+    min-height: 100vh;
+}
+
+a {
+    color: #fce3c7;
+}
+
+a:visited {
+    color: #eae7df;
+}
+
+img {
+    width: 36vw;
+    height: 36vh;
+}
+
+footer {
+    color: #065170;
+}
+
+td[colspan="3"] {
+    color: #065170;
+}

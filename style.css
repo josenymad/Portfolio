@@ -1,88 +1,86 @@
 body {
-    font-family: 'Urbanist', sans-serif;
-    color: #eae7df;
-    text-align: center;
-    background: linear-gradient(#065170, #F8B264);
-    letter-spacing: 3px;
+  font-family: "Urbanist", sans-serif;
+  color: #eae7df;
+  text-align: center;
+  background: linear-gradient(#065170, #f8b264);
+  letter-spacing: 3px;
 }
 
 #profile {
-    height: auto;
-    width: 36vw;
-    border-radius: 30vw 3vw 30vw 3vw;
+  height: auto;
+  width: 36vw;
+  border-radius: 30vw 3vw 30vw 3vw;
 }
 
 #QR {
-    height: auto;
-    width: 15vw;
+  height: auto;
+  width: 15vw;
 }
 
 footer {
-    color: #065170;
+  color: #065170;
 }
 
 a {
-    color: #fce3c7;
+  color: #fce3c7;
 }
 
 a:visited {
-    color: #eae7df;
+  color: #eae7df;
 }
 
 span {
-    color: #F3E5D3;
+  color: #f3e5d3;
 }
 
 #horizon1 {
-    width: 50vw;
+  width: 50vw;
 }
 
 #horizon2 {
-    width: 25vw;
+  width: 25vw;
 }
 
 #horizon3 {
-    width: 6vw;
+  width: 6vw;
 }
 
 #horizon4 {
-    width: 1vw;
+  width: 1vw;
 }
 
-.qualities {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
-    flex-direction: row;
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-direction: row;
 }
 
-.qualities div {
-    font-size: 1.5rem;
-    flex-basis: 30%;
-}
-
-.qualities div:first-child {
-    font-family: 'Source Code Pro', monospace;
-}
-
-.qualities div:nth-child(2) {
-    font-family: 'Paytone One', sans-serif;  
-}
-
-.qualities div:last-child {
-    font-family: 'Teko', sans-serif;
+.projects div {
+  font-size: 1.5rem;
+  flex-basis: 30%;
 }
 
 .hobbies {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin: auto;
+  justify-content: space-between;
+  height: 12vh;
 }
 
 @media screen and (max-width: 768px) {
-    .hobbies, .qualities {
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        row-gap: 9vw;
-    }
+  .hobbies,
+  .qualities {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 9vw;
+  }
 }

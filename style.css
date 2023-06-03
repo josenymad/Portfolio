@@ -49,6 +49,26 @@ span {
   width: 1vw;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin: auto;
+  justify-content: space-between;
+  height: 12vh;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.skill {
+  height: 9vh;
+  width: auto;
+}
+
 .projects {
   display: flex;
   justify-content: space-evenly;
@@ -59,20 +79,6 @@ span {
 .projects div {
   font-size: 1.5rem;
   flex-basis: 30%;
-}
-
-.hobbies {
-  display: flex;
-  flex-direction: row;
-}
-
-.about {
-  display: flex;
-  flex-direction: column;
-  width: 60vw;
-  margin: auto;
-  justify-content: space-between;
-  height: 12vh;
 }
 
 @media screen and (max-width: 768px) {

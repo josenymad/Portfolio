@@ -2,7 +2,7 @@ body {
   font-family: "Urbanist", sans-serif;
   color: #eae7df;
   text-align: center;
-  background: #065170;
+  background: linear-gradient(#065170, #35009a);
   letter-spacing: 3px;
   display: flex;
   flex-direction: column;
@@ -28,15 +28,7 @@ h4 {
 }
 
 a {
-  color: #fce3c7;
-}
-
-a:visited {
-  color: #eae7df;
-}
-
-span {
-  color: #f3e5d3;
+  color: #ffcaca;
 }
 
 #horizon1 {
@@ -100,3 +92,25 @@ video {
   width: auto;
   margin: 15px;
 }
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin: auto;
+  border-style: none;
+}
+
+input, textarea {
+  border-radius: 9px;
+  border-style: none;
+}
+
+[type="submit"] {
+  padding: 6px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+

@@ -9,18 +9,20 @@
       href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Source+Code+Pro&family=Teko&family=Urbanist&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <header>
-      <h1>Jose Wills</h1>
+      <h1 id="top">Jose Wills</h1>
       <h2>• software developer •</h2>
       <nav>
-        <a href="https://www.linkedin.com/in/jose-wills" target="_blank">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/jose-wills" target="_blank" class="link">LinkedIn</a>
         <span>|</span>
-        <a href="https://github.com/josenymad" target="_blank"> GitHub</a>
+        <a href="https://github.com/josenymad" target="_blank" class="link">GitHub</a>
+        <span>|</span>
+        <a href="#contact" class="link">Contact</a>
       </nav>
       <img id="profilePic" src="./Images/JW-2.JPG" alt="Jose Wills Photo" />
     </header>
@@ -32,14 +34,19 @@
           <div>
             I'm a curious, proactive, and analytical Software Developer based in
             Manchester, currently studying part-time at
-            <a href="https://www.commandshift.co/" target="_blank">Command Shift</a>
+            <a href="https://www.commandshift.co/" target="_blank" class="link"
+              >Command Shift</a
+            >
             Software Engineering Boot-camp.
           </div>
           <div>
-            With over a decade's worth of sales experience, I have exceptional communication skills and a natural aptitude for problem-solving.
+            With over a decade's worth of sales experience, I have exceptional
+            communication skills and a natural aptitude for problem-solving.
           </div>
           <div>
-            I'm now determined to transition into the tech industry to carve a new chapter in my career, learn about the technology I love, and start building amazing software.
+            I'm now determined to transition into the tech industry to carve a
+            new chapter in my career, learn about the technology I love, and
+            start building amazing software.
           </div>
         </div>
       </section>
@@ -48,39 +55,75 @@
         <h3>Skills</h3>
         <div class="skills">
           <div>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" class="skill"/>
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+              class="skill"
+            />
             <p>JavaScript</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" class="skill"/>
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+              alt="HTML"
+              class="skill"
+            />
             <p>HTML</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" class="skill"/>
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+              alt="CSS"
+              class="skill"
+            />
             <p>CSS</p>
           </div>
           <div>
-            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" class="skill"/>
+            <img
+              src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+              alt="Git"
+              class="skill"
+            />
             <p>Git</p>
           </div>
           <div>
-            <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="Jest" class="skill"/>
+            <img
+              src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
+              alt="Jest"
+              class="skill"
+            />
             <p>Jest</p>
           </div>
           <div>
-            <img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="Mocha" class="skill"/>
+            <img
+              src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg"
+              alt="Mocha"
+              class="skill"
+            />
             <p>Mocha</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node" class="skill"/>
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+              alt="Node"
+              class="skill"
+            />
             <p>Node</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" class="skill"/>
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+              alt="PostgreSQL"
+              class="skill"
+            />
             <p>PostgreSQL</p>
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" class="skill"/>
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
+              alt="Docker"
+              class="skill"
+            />
             <p>Docker</p>
           </div>
         </div>
@@ -92,46 +135,105 @@
         <div class="projects">
           <div>
             <h4>Portfolio</h4>
-            <div>This is the first website I've built and designed. Although it is a little basic, I have taken care to use it's simplicity to my advantage and present something which is neat, organised, and accessible.</div>
-            <div>I'm really looking forward to learning more about front-end technologies such as React to make this project even better!</div>
-            <a href="https://github.com/josenymad/cruise-ships-gui" target="_blank">
-              <img src="./Images/github-mark-white.png" alt="GitHub logo" class="github"/>
+            <p>
+              This is the first website I've built and designed. Although it is
+              a little basic, I have taken care to present something which looks neat, is well organised, and also meets accessibility standards.
+            </p>
+            <p>
+              Please feel free to give me feedback using the <a href="#contact">contact</a> form below.
+            </p>
+            <p>
+              I'm really looking forward to learning more about front-end
+              technologies such as React to make this even better!
+            </p>
+            <a
+              href="https://github.com/josenymad/cruise-ships-gui"
+              target="_blank"
+            >
+              <img
+                src="./Images/github-mark-white.png"
+                alt="GitHub logo"
+                class="github"
+              />
             </a>
           </div>
           <div>
             <h4>Cruise Ships GUI</h4>
             <video controls>
-              <source src="./videos/Coding fundamentals.mov">
+              <source src="./videos/Coding fundamentals.mov" />
             </video>
             <div>
-              <div>Using Domain Modelling, I built an interactive GUI with HTML and CSS to visualise and animate JavaScript objects, applying methods to render their respective images and position their layout.</div>
-              <div>User input can make changes to the DOM through a simple yet stylish form.</div>
+              <p>
+                Using Domain Modelling, I built an interactive GUI with HTML and
+                CSS to visualise and animate JavaScript objects, applying
+                methods to render their respective images and position their
+                layout.
+              </p>
+              <p>
+                Users can make changes to the DOM with a simple yet
+                stylish form.
+              </p>
             </div>
-            <a href="https://github.com/josenymad/cruise-ships-gui" target="_blank">
-              <img src="./Images/github-mark-white.png" alt="GitHub logo" class="github"/>
+            <a
+              href="https://github.com/josenymad/cruise-ships-gui"
+              target="_blank"
+            >
+              <img
+                src="./Images/github-mark-white.png"
+                alt="GitHub logo"
+                class="github"
+              />
             </a>
           </div>
-          <hr id="horizon4" />
           <div>
             <h4>Book Library API</h4>
             <video controls>
-              <source src="./videos/API refactoring - edited sound.mov">
+              <source src="./videos/API refactoring - edited sound.mov" />
             </video>
             <div>
-              <div>I built an Express API which uses asynchronous code to manage data being transferred to and from a PostgreSQL database.</div>
-              <div>I created models using Sequelize as an Object Relational Mapper and Node as a runtime environment.</div>
+              <p>
+                I built an Express API which uses asynchronous code to manage
+                data being transferred to and from a PostgreSQL database.
+              </p>
+              <p>
+                I created models using Sequelize as an Object Relational Mapper
+                and Node as a runtime environment.
+              </p>
             </div>
-            <a href="https://github.com/josenymad/cruise-ships-gui" target="_blank">
-              <img src="./Images/github-mark-white.png" alt="GitHub logo" class="github"/>
+            <a
+              href="https://github.com/josenymad/cruise-ships-gui"
+              target="_blank"
+            >
+              <img
+                src="./Images/github-mark-white.png"
+                alt="GitHub logo"
+                class="github"
+              />
             </a>
           </div>
-          <hr id="horizon4" />
-          
         </div>
       </section>
+      <hr id="horizon4" />
+      <section id="contact">
+        <h3>Contact</h3>
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mayzgojz" method="post">
+          <fieldset id="fs-frm-inputs">
+            <label for="full-name">Full Name:</label>
+            <input type="text" name="name" id="full-name" placeholder="Your name" required="">
+            <label for="email-address">Email Address:</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="Your email" required="">
+            <label for="message">Message:</label>
+            <textarea rows="5" name="message" id="message" placeholder="Let me know how I can help, or if you have any ideas to share" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </fieldset>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
     </main>
+    <p class="dot">•</p>
     <footer>
-      <p>Jose Wills 2023</p>
+      <a href="#top" class="link">Back to the top</a>
+      <p>Jose Wills © 2023</p>
     </footer>
   </body>
 </html>

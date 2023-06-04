@@ -115,13 +115,7 @@ html {
 }
 
 @media screen and (max-width: 768px) {
-  #profilePic {
-    width: 63vw;
-  }
-  #projects {
-    width: 63vw;
-  }
-  #video {
+  #profilePic, #projects, video {
     width: 63vw;
   }
 }

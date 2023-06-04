@@ -8,11 +8,10 @@ This project helped me to understand the basics of HTML and CSS, and gave me pra
 - Attributes
 - Text
 - Fonts
-- Lists
+- Images
 - Links
+- Videos
 - Colours
 - Flexbox
-- CSS Grid
-- Images
-- Tables
+- The Box Model
 - Forms

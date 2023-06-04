@@ -1,6 +1,6 @@
 # Portfolio
 
-Here I designed my first website!
+Here I designed my first [website](www.josewills.com)!
 
 This project helped me to understand the basics of HTML and CSS, and gave me practice on the following topics:
 

@@ -2,23 +2,29 @@ body {
   font-family: "Urbanist", sans-serif;
   color: #eae7df;
   text-align: center;
-  background: linear-gradient(#065170, #f8b264);
+  background: #065170;
   letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
 }
 
-#profile {
+#profilePic {
   height: auto;
   width: 36vw;
   border-radius: 30vw 3vw 30vw 3vw;
+  margin: 3vh;
 }
 
-#QR {
-  height: auto;
-  width: 15vw;
+h3 {
+  font-size: 1.5rem;
 }
 
-footer {
-  color: #065170;
+h4 {
+  font-size: 1.2rem;
+}
+
+.dot {
+  font-size: 1.2rem;
 }
 
 a {
@@ -34,59 +40,63 @@ span {
 }
 
 #horizon1 {
-  width: 50vw;
+  width: 60vw;
 }
 
 #horizon2 {
-  width: 25vw;
+  width: 30vw;
+  margin-top: 6vh;
 }
 
 #horizon3 {
-  width: 6vw;
+  width: 15vw;
+  margin-top: 6vh;
 }
 
 #horizon4 {
-  width: 1vw;
+  width: 3vw;
+  margin-top: 6vh;
 }
 
-.about {
+.profile {
   display: flex;
   flex-direction: column;
   width: 60vw;
   margin: auto;
   justify-content: space-between;
-  height: 12vh;
+  gap: 3vh;
 }
 
 .skills {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .skill {
   height: 9vh;
   width: auto;
+  background-color: #eae7df;
+  padding: 15px;
+  border-radius: 15px;
 }
 
 .projects {
   display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
-  flex-direction: row;
+  flex-direction: column;
+  width: 48vw;
+  margin: auto;
 }
 
-.projects div {
-  font-size: 1.5rem;
-  flex-basis: 30%;
+video {
+  border-radius: 15px;
+  height: auto;
+  width: 48vw;
 }
 
-@media screen and (max-width: 768px) {
-  .hobbies,
-  .qualities {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    row-gap: 9vw;
-  }
+.github {
+  height: 6vh;
+  width: auto;
+  margin: 15px;
 }

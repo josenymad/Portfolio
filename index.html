@@ -233,7 +233,11 @@
     <p class="dot">•</p>
     <footer>
       <a href="#top" class="link">Back to the top</a>
-      <p>Jose Wills © 2023</p>
+      <p>Jose Wills © <span id="date"></span></p>
+      <script>
+        let date = new Date();
+        document.getElementById("date").innerHTML = date.getFullYear();
+      </script>
     </footer>
   </body>
 </html>

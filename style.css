@@ -96,17 +96,25 @@ video {
 fieldset {
   display: flex;
   flex-direction: column;
-  width: 30vw;
   margin: auto;
   border-style: none;
 }
 
-input, textarea {
+form {
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+input,
+textarea {
   border-radius: 9px;
   border-style: none;
+  padding: .5rem;
 }
 
 [type="submit"] {
+  border-radius: 9px;
+  border-style: none;
   padding: 6px;
 }
 
@@ -115,8 +123,9 @@ html {
 }
 
 @media screen and (max-width: 768px) {
-  #profilePic, #projects, video {
+  #profilePic,
+  #projects,
+  video {
     width: 63vw;
   }
 }
-

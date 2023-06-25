@@ -18,13 +18,24 @@
       <h1 id="top">Jose Wills</h1>
       <h2>• software developer •</h2>
       <nav>
-        <a href="https://www.linkedin.com/in/jose-wills" target="_blank" class="link">LinkedIn</a>
+        <a
+          href="https://www.linkedin.com/in/jose-wills"
+          target="_blank"
+          class="link"
+          >LinkedIn</a
+        >
         <span>|</span>
-        <a href="https://github.com/josenymad" target="_blank" class="link">GitHub</a>
+        <a href="https://github.com/josenymad" target="_blank" class="link"
+          >GitHub</a
+        >
         <span>|</span>
         <a href="#contact" class="link">Contact</a>
       </nav>
-      <img id="profilePic" src="./Images/JW-2 (reduced).jpg" alt="Jose Wills Photo" />
+      <img
+        id="profilePic"
+        src="./Images/JW-2 (reduced).jpg"
+        alt="Jose Wills Photo"
+      />
     </header>
     <hr id="horizon1" />
     <main>
@@ -61,6 +72,14 @@
               class="skill"
             />
             <p>JavaScript</p>
+          </div>
+          <div>
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+              alt="React"
+              class="skill"
+            />
+            <p>React</p>
           </div>
           <div>
             <img
@@ -137,14 +156,13 @@
             <h4>Portfolio</h4>
             <p>
               This is the first website I've built and designed. Although it is
-              a little basic, I have taken care to present something which is neat, well organised, and also meets accessibility standards.
+              a little basic, I have taken care to present something which is
+              neat, well organised, and also meets certain accessibility
+              standards.
             </p>
             <p>
-              Please feel free to give me feedback using the <a href="#contact">contact</a> form below.
-            </p>
-            <p>
-              I'm really looking forward to learning more about front-end
-              technologies such as React to make this even better!
+              Please feel free to give me feedback using the
+              <a href="#contact">contact</a> form below.
             </p>
             <a
               href="https://github.com/josenymad/cruise-ships-gui"
@@ -156,6 +174,57 @@
                 class="github"
               />
             </a>
+          </div>
+          <div>
+            <h4>Weather App</h4>
+            <video controls>
+              <source src="./videos/React Weather App.mov" />
+            </video>
+            <div>
+              <p>Renders a 5-day live weather forecast for cities in the UK.</p>
+              <p>
+                Building this has taught me a solid understanding of fundamental
+                concepts such as JSX, components, props, state, hooks, and the
+                testing library.
+              </p>
+              <a
+                href="https://github.com/josenymad/weather-app"
+                target="_blank"
+              >
+                <img
+                  src="./Images/github-mark-white.png"
+                  alt="GitHub logo"
+                  class="github"
+                />
+              </a>
+            </div>
+          </div>
+          <div>
+            <h4>NASA Search Engine</h4>
+            <video controls>
+              <source src="./videos/NASA search engine.mov" />
+            </video>
+            <div>
+              <p>
+                Using a NASA API endpoint for image search, this delivers
+                results based on a query relating to space.
+              </p>
+              <p>
+                I used a grid to layout the search results and also wanted users
+                to be able to zoom into images after searching, so I learnt some
+                new CSS tricks to add to my arsenal.
+              </p>
+              <a
+                href="https://github.com/josenymad/react-technical-test"
+                target="_blank"
+              >
+                <img
+                  src="./Images/github-mark-white.png"
+                  alt="GitHub logo"
+                  class="github"
+                />
+              </a>
+            </div>
           </div>
           <div>
             <h4>Cruise Ships GUI</h4>
@@ -170,8 +239,8 @@
                 layout.
               </p>
               <p>
-                Users can make changes to the DOM with a simple yet
-                stylish form.
+                Users can make changes to the DOM with a simple yet stylish
+                form.
               </p>
             </div>
             <a
@@ -216,17 +285,46 @@
       <hr id="horizon4" />
       <section id="contact">
         <h3>Contact</h3>
-        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mayzgojz" method="post">
+        <form
+          id="fs-frm"
+          name="simple-contact-form"
+          accept-charset="utf-8"
+          action="https://formspree.io/f/mayzgojz"
+          method="post"
+        >
           <fieldset id="fs-frm-inputs">
             <label for="full-name">Full Name:</label>
-            <input type="text" name="name" id="full-name" placeholder="Your name" required="">
+            <input
+              type="text"
+              name="name"
+              id="full-name"
+              placeholder="Your name"
+              required=""
+            />
             <label for="email-address">Email Address:</label>
-            <input type="email" name="_replyto" id="email-address" placeholder="Your email" required="">
+            <input
+              type="email"
+              name="_replyto"
+              id="email-address"
+              placeholder="Your email"
+              required=""
+            />
             <label for="message">Message:</label>
-            <textarea rows="5" name="message" id="message" placeholder="Let me know how I can help, or if you have any ideas to share" required=""></textarea>
-            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            <textarea
+              rows="5"
+              name="message"
+              id="message"
+              placeholder="Let me know how I can help, or if you have any ideas to share"
+              required=""
+            ></textarea>
+            <input
+              type="hidden"
+              name="_subject"
+              id="email-subject"
+              value="Contact Form Submission"
+            />
           </fieldset>
-          <input type="submit" value="Submit">
+          <button type="submit">Submit</button>
         </form>
       </section>
     </main>

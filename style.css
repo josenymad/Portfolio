@@ -98,10 +98,6 @@ a:hover:not(.github-link) {
   margin: auto;
 }
 
-.project-paragraph, .about-paragraph {
-  text-align: left;
-}
-
 video {
   border-radius: 15px;
   height: auto;

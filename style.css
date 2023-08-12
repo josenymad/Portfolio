@@ -29,6 +29,14 @@ h4 {
 
 a {
   color: #caffff;
+  transition: .3s;
+  padding: 2px;
+  border-radius: 6px;
+}
+
+a:hover:not(.github-link) {
+  box-shadow: inset 180px 0 0 0 #caffff;
+  color: #1E2985;
 }
 
 #horizon1 {
@@ -56,7 +64,11 @@ a {
   width: 60vw;
   margin: auto;
   justify-content: space-between;
-  gap: 3vh;
+}
+
+.about-paragraph {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
 }
 
 #skills {
@@ -72,6 +84,11 @@ a {
   background-color: #eae7df;
   padding: 15px;
   border-radius: 15px;
+  transition: .3s;
+}
+
+.skill:hover, .github:hover {
+  transform: scale(1.05);
 }
 
 #projects {
@@ -79,6 +96,10 @@ a {
   flex-direction: column;
   width: 48vw;
   margin: auto;
+}
+
+.project-paragraph, .about-paragraph {
+  text-align: left;
 }
 
 video {
@@ -105,17 +126,29 @@ form {
   margin: 0 auto;
 }
 
+label {
+  margin-top: 3px;
+  text-align: left;
+}
+
 input,
 textarea {
   border-radius: 9px;
   border-style: none;
   padding: .5rem;
+  margin-top: 3px;
 }
 
 [type="submit"] {
   border-radius: 9px;
   border-style: none;
   padding: 6px;
+  font-weight: 700;
+}
+
+[type="submit"]:hover {
+  cursor: pointer;
+  color: #35009a;
 }
 
 html {

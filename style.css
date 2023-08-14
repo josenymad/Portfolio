@@ -61,7 +61,7 @@ a:hover:not(.github-link) {
 #about {
   display: flex;
   flex-direction: column;
-  width: 60vw;
+  width: 75vw;
   margin: auto;
   justify-content: space-between;
 }

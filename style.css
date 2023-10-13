@@ -10,7 +10,7 @@ body {
 
 #profilePic {
   height: auto;
-  width: 48vw;
+  width: 36vw;
   border-radius: 30vw 3vw 30vw 3vw;
   margin: 3vh;
 }
@@ -69,6 +69,9 @@ a:hover:not(.github-link) {
 .about-paragraph {
   margin-top: 0.6em;
   margin-bottom: 0.6em;
+  text-align: left;
+  width: 60vw;
+  margin: auto;
 }
 
 #skills {
